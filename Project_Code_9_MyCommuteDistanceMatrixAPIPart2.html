@@ -428,7 +428,7 @@
           // on it and zoom in
           geocoder.geocode(
             { address: address,
-              componentRestrictions: {locality: 'New York'}
+               componentRestrictions: {locality: 'New York'}
             }, function(results, status) {
               if (status == google.maps.GeocoderStatus.OK) {
                 map.setCenter(results[0].geometry.location);
@@ -529,8 +529,7 @@
     </script>
 
     <script async defer
-        src=
-        "https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=MYAPIKEY&v=3&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=AIzaSyBxM7ybr9xCOF45j3UWwkvwhVeq__i02U4&v=3&callback=initMap">
     </script>
 
   </body>
